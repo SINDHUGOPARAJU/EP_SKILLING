@@ -1,0 +1,45 @@
+<html>
+<title>registration_form </title>
+
+<style>
+  .bordered {
+    padding: 20px;
+    border: 10px  black;
+    background-color:grey;
+  }
+</style>
+
+<body>
+<Body background="https://wallpaperboat.com/wp-content/uploads/2019/06/minimalist-desktop-5.jpg">
+<form method="post">
+<table align="center" class="bordered">
+<tr> <td><h1 style="font-family: "Lucida Console", "Courier New", monospace"> Registration form </h1></td> </tr>
+<br>
+<tr><td>Name of the Student : </td> <td><input type="text" name="name"></td> </tr>
+<br>
+<tr><td>Regd No : </td> <td><input type="text" name="regd_num"></td> </tr>
+<br>
+<tr><td>Email Id : </td> <td><input type="text" name="email"></td> </tr>
+<br>
+<tr><td>Favourite Game : </td><td> <input type="checkbox" name="cricket" >Cricket <input type="checkbox" name="football"> football <input type="checkbox" name="chess"> Chess </td> </tr>
+<br>
+<tr> <td>Gender : </td> <td><input type="radio" name="male">  Male  <input type="radio" name="female"> Female </td> </tr>
+<br>
+<tr> <td> Fav Subject : </td> <td> <select name = "dropdown">
+            <option value = "-----------" selected>select</option>
+            <option value = "Computer Networks and Security "> Computer Networks and Security </option>
+            <option value = "data Science ">Data Science</option>
+            <option value = "Mathematical Programming ">Mathematical Programming </option>
+         </select> </tr> </td>
+<tr> <td> Address :  </td>
+	 <td> <textarea rows = "5" cols = "60" name = "description">
+         </textarea>
+	 <br>
+	 <br>
+	 <input type = "submit" value = "Register " /> </td> </tr> 
+
+</table>
+</form>
+</body>
+
+</html>
