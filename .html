@@ -1,0 +1,49 @@
+<html>
+<head>
+<script>
+function register()
+{
+var user=document.f1.user.value;//String
+var email=document.f1.email.value;//String
+if(user==null||user=="")
+{
+alert("enter the username properly")
+
+//alert box-->alert();
+//var c=parseInt(a)+parseInt(b);
+//alert(c);
+}
+else if(name.length<8)
+{  
+alert("username must be at least 8 characters long.")
+}
+else if(name.length>8)
+{
+alert("username entered is correct.")
+}
+  
+if(email==null||email=="")
+{
+alert("enter the email properly")
+}
+else if(email.length<8)
+{  
+alert("email must be at least 8 characters long.")
+}
+var at=email.indexOf('@');
+var dot=email.lastIndexOf('.');
+//var c=email.indexOf(
+
+alert(at);
+alert(dot);
+}
+</script>
+</head>
+<body>
+<form name ="f1" onsubmit="register()">
+Username:<input type="text" name="user"><br>
+Email:<input type="text" name="email"><br>
+<input type="submit" value="register">
+</form>
+</body>
+</html>
